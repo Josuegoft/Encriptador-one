@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: lightgray;
+  background-image: url(img/code.jpg);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.cajas{
+  width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: row
+}
+.letras {
+  color:white;
+}
+.titulo {
+  text-align:center;
+  font-size: 50px;
+  margin: 10px;
+  color: white;
+}
+
+.box {
+  background-color: var(--theme-bg-color);
+  max-width: 600px;
+  max-height: 860px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 100%;
+  border-radius: 14px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  font-size: 15px;
+  font-weight: 50px;
+  box-shadow: 8px 8px 35px 0px rgb(0 0 0 / 75%);
+  padding: 25px;
+}
+
+.btn {
+  border: 0;
+  border-color: black;
+  color: white;
+  font-weight: bold;
+  background-color: blue;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 0.5em;
+  font-size: 15px;
+  font-family: inherit;
+  -webkit-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.btn{
+  background: #3498DB;
+  box-shadow: 0px 5px 0px 0px #00008B;
+}
+
+.btn:hover{
+  background: #0000D7;
+}
+
+.btn:active{
+  box-shadow: 0px 0px 0px 0px #00008B;
+}
+
+.text-input {
+  border-radius: 0.5em;
+  border: 3px solid rgb(243, 230, 230);
+  display: block;
+  padding: 10px;
+  height: 30px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+  background-color: var(--theme-bg-color);
+  width: -webkit-fill-available;
+ 
+  margin: 10px 0 0;
+}
+.input-texto {
+  border-radius: 0.5em;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  padding: 10px;
+  height: 30px;
+  color: #5af78d;
+  font-size: 15px;
+  font-family: sans-serif;
+  margin: 10px 0 0;
+}
+.footer{
+  color: navy;
+  background-color: #173116;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin-top: 20px;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+  position: relative;
+  bottom: 0;
+  clear: both;
+  float: left;
+  font-weight: 700;
+}
+.box2{
+    color: navy;
+   background-color: #5be777;
+   padding: 10px;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);  
+   border-radius: 0.5em;
+}
